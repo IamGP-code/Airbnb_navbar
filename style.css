@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  width: 100%;
+  border: 1px dashed grey;
+  /* height: 80px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 80px;
+}
+
+.filters {
+  display: flex;
+  border: 1px rgba(0, 0, 0, 0.5);
+  border-radius: 200px;
+  padding: 4px 8px;
+  color: black;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.filter1 {
+  display: flex;
+/* color: #ffffff; */
+  align-items: center;
+  justify-content: center;
+  padding: 0px 16px;
+  color: #8d8989;
+}
+.text1, .text2{
+/* color: #8d8989; */
+color: black;
+}
+
+.border-horizontal {
+  border-right: 0.3px solid gray;
+  border-left: 0.3px solid gray;
+}
+
+.search-icon {
+ /* background-color:    #FF385C; */
+  background-color: rgb(255, 86, 115);
+  border-radius: 50%;
+  padding: 12px;
+  color: white;
+}
+
+.cart {
+  padding: 4px 5px;
+  display: flex;
+  justify-content: flex-end;
+  /* border: 1px dashed grey; */
+  align-items: center;
+  column-gap: 16px;
+  border-radius: 40px;
+}
+
+.airbnb-home {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  font-style: bold;
+}
+.globe {
+  padding: 10px;
+  border-radius: 50%;
+  /* border: 1px dashed grey; */
+  /* background-color: rgba(0, 0, 0, 0.1); */
+
+  /* background-color: grey; */
+  /* background-color: rgba(0,0,0,0.5);     */
+}
+
+.user-profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid #f9f9f9; */
+  border:0.5px solid #a8a6a690;
+  /* border: 2px solid #ffffff; */
+  /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+  /* box-shadow: 0 0 0 1.5px; */
+  column-gap: 10px;
+  border-radius: 40px;
+  /* padding: 2px 8px; */
+  /* background-color: grey; */
+  /* background-color: rgba(0, 0, 0, 0.1); */
+  /* justify-content: flex-start; */
+  padding: 3px 5px 1px 8px;
+}
+
+.left {
+  /* padding: 8px; */
+}
+.right {
+  /* padding: 3px 4px; */
+  /* height: fit-content; */
+  /* height: 10px; */
+  color: #8d8989;
+}
+
+.dot {
+  border-radius: 50%;
+  background-color: red;
+  height: 10px;
+  min-width: 10px;
+  top: 27px;
+  right: 95px;
+  position: absolute;
+  z-index: 1;
+  box-shadow: 0 0 0 1.5px #ffffff;
+}
